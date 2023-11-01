@@ -8,8 +8,8 @@
 }
 
 :root {
-    --bg-color:rgb(33, 54, 79);
-    --text-color: rgb(208, 208, 208);
+    --bg-color:rgb(208, 229, 255);
+    --text-color: rgb(255, 255, 255);
     --shape-color: rgb(0, 103, 177);
     --nav-color: rgb(41, 41, 41);
 }
@@ -38,9 +38,102 @@ body {
     font-size: 18px;
     cursor: pointer;
     padding: 20px;
+    font-weight: 600;
 
 }
 
 .navbar .right a:hover {
     background-color: var(--bg-color);
+    color: var(--nav-color);
 }
+
+.right i{
+        display: none;
+    }
+
+
+.price-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 10px;
+
+}
+
+.wrapper {
+    background-color: aliceblue;
+    color: rgb(78, 78, 78);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 15px 25px;
+    transition: .2s ease;
+}
+
+.wrapper:hover {
+    background-color: aliceblue;
+    box-shadow: 0px 10px 10px rgba(52, 52, 52, 0.162);
+    scale: 1.05;
+}
+
+.wrapper h1 {
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.wrapper h2 {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.wrapper p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(83, 83, 83);
+    margin-bottom: 15px; 
+}
+
+.wrapper button {
+    font-size: 16px;
+    padding: 5px 40px;
+    background-color: rgb(0, 147, 239);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.26);
+    font-weight: 600;
+}
+
+.wrapper button:hover {
+    background-color: rgb(0, 121, 196);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+   
+    .menu{
+        display: none;
+    }
+
+    .right i{
+        display: block;
+    }
+
+
+  }
