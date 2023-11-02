@@ -153,14 +153,13 @@ body {
         display: none;
     }
    
-     
 
     .menu-btn {
         display: block;
         cursor: pointer;
     }
 
-    .right {
+    body {
         position: relative;
     }
 
@@ -169,7 +168,8 @@ body {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 70px;
+    right: 5px;
     background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
