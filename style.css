@@ -46,7 +46,7 @@ body {
     text-decoration: none;
     color: var(--nav-color);
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
     padding: 10px 30px;
     border-radius: 10px;
@@ -93,6 +93,7 @@ body {
 .home-container .home-left h1 {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
 .home-container .home-left h1 span {
     color: #ffffff;
@@ -106,3 +107,6 @@ body {
 .home-right img{
     width: 500px;
 }
+
+/* ............Typed js Heading........... */
+
