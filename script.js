@@ -6,8 +6,16 @@ menuBtn.addEventListener("click", () => {
     items.classList.toggle("active");
 });
 
-// function linkAccount(){
-//     items.classList.remove("active")
-// }
-// navList.forEach(n => n.addEventListener("click", linkAccount))
 
+// scroll reveal
+
+ScrollReveal({
+    reset: true,
+    distance: '60px',
+    duration: 2000,
+    delay: 400
+});
+
+ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
+ScrollReveal().reveal(".items a", {delay: 100, origin: "top", interval: 200});
+ScrollReveal().reveal("img, p", {delay: 200, origin: "bottom"});

@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 800px) {
+
+    .items {
+        display: none;
+    }
+   
+
+    .menu-btn {
+        display: block;
+    }
+
+    body {
+        position: relative;
+    }
+
+   .items.active{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:63px;
+    right: 0px;
+    background-color: var(--nav-color);
+    padding: 20px;
+    height: 100vh;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.356);
+    cursor: none;
+    
+    }
+
+    .items a {
+        margin-top: 20px;
+    }
+
+   
+
+  }
