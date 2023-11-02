@@ -173,6 +173,7 @@ body {
     padding: 20px;
     height: 100vh;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.356);
+    cursor: none;
     
     }
 
