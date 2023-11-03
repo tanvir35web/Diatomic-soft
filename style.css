@@ -17,6 +17,7 @@
 
 body {
     background: var(--bg-color);
+    
 }
 
 .navbar{
@@ -72,7 +73,7 @@ body {
 /* ..............Home section start............ */
 
 .home {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .home-container {
@@ -108,5 +109,114 @@ body {
     width: 500px;
 }
 
-/* ............Typed js Heading........... */
+.auto-heading {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/* ............Services section start........... */
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px;
+}
+
+.services-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.services-para {
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    margin-bottom: 80px;
+}
+
+.wrapper .left-service img {
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.wrapper .left-service {
+    
+    margin-left: -31%;
+    
+}
+
+.wrapper .right-service {
+    position: absolute;
+    background-color: rgba(0, 0, 79, 0.468);
+    width: 350px;
+    color: white;
+    padding: 30px 20px;
+    right: 20%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.26);
+   
+}
+
+
+.wrapper .right-service h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wrapper .right-service p {
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+
+/* .....................odd.................... */
+
+
+.wrapper .left-service-odd img {
+    width: 700px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.wrapper .left-service-odd {
+    
+    margin-right: -31%;
+}
+
+
+
+.wrapper .right-service-odd {
+    position: absolute;
+    background-color: #02564f8e;
+    width: 350px;
+    color: white;
+    padding: 30px 20px;
+    left: 20%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.26);
+   
+}
+.wrapper .right-service-odd h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.wrapper .right-service-odd p {
+    line-height: 1.6;
+    color: #f0f0f0;
+}
+
+/* ............Services section end........... */
 
