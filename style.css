@@ -29,11 +29,31 @@ body {
     padding: 10px 30px;
 }
 
-.navbar .left p {
-    font-size: 30px;
-    font-weight: 800;
-    color: var(--nav-text-color);
+.navbar .left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
 }
+
+.navbar .left img {
+    width: 60px;
+    margin-right: -20px;
+}
+
+.navbar .left .logoname {
+    width: 230px;
+    margin-left: 20px;
+}
+
+.menu-btn img {
+    width: 30px;
+}
+
+.menu-btn {
+    display: none;
+}
+
 
 /* Manu Items Start */
 
@@ -59,13 +79,6 @@ body {
     color: var(--primary-color);
 }
 
-.menu-btn img {
-    width: 30px;
-}
-
-.menu-btn {
-    display: none;
-}
 
 /* Manu Items End */
 
