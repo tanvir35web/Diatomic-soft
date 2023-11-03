@@ -81,7 +81,7 @@ body {
 }
 
 
-/* Manu Items End */
+/* Menu Items End */
 
 
 
@@ -279,3 +279,58 @@ body {
 
 /* ............Services section end........... */
 
+
+/* ............Projects section Start........... */
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-heading {
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.projects-para {
+    margin-bottom: 100px;
+    padding: 0 50px;
+}
+
+.wrapper-projects {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    column-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.project {
+width: 300px;
+background-color: rgba(255, 255, 255, 0.29);
+padding: 40px 20px;
+border-radius: 30px;
+backdrop-filter: blur(10px);
+transition: .3s ease;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+.project:hover{
+    scale: 1.03;
+}
+
+.project img {
+    width: 250px;
+    border-radius: 10px;
+}
+.project h1 {
+    font-size: 20px;
+    color: #00458bd0;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
