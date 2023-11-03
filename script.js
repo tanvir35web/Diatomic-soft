@@ -14,8 +14,8 @@ menuBtn.addEventListener("click", () => {
 
 ScrollReveal({
     reset: true,
-    distance: '60px',
-    duration: 2000,
+    distance: '160px',
+    duration: 1500,
     delay: 200
 });
 
