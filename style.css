@@ -89,13 +89,13 @@ body {
 /* ..............Home section start............ */
 
 .home {
-    height: 100vh;
+    height: 70vh;
 }
 
 .home-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 120px 150px;
+    padding: 100px 150px;
     justify-content: space-between;
     align-items: center;
 
