@@ -13,7 +13,7 @@ ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200
 ScrollReveal().reveal("img", {delay: 100, origin: "right"});
 ScrollReveal().reveal("p", {delay: 100, origin: "left"});
 ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
-ScrollReveal().reveal(".project", {delay: 100, origin: "bottom"});
+ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
 ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
 ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
 
