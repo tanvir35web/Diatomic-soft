@@ -12,18 +12,18 @@ menuBtn.addEventListener("click", () => {
 // ............scroll reveal animation ............
 
 
-// ScrollReveal({
-//     reset: true,
-//     distance: '160px',
-//     duration: 1500,
-//     delay: 200
-// });
+ScrollReveal({
+    reset: true,
+    distance: '160px',
+    duration: 1500,
+    delay: 200
+});
 
-// ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
-// ScrollReveal().reveal(".items a, .auto-heading", {delay: 100, origin: "top", interval: 200});
-// ScrollReveal().reveal("img, p", {delay: 100, origin: "bottom"});
-// ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
-// ScrollReveal().reveal("img, p", {delay: 100, origin: "bottom"});
+ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
+ScrollReveal().reveal(".items a, .auto-heading", {delay: 100, origin: "top", interval: 200});
+ScrollReveal().reveal("img, p", {delay: 100, origin: "bottom"});
+ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
+ScrollReveal().reveal("img, p", {delay: 100, origin: "bottom"});
 
 
 //............ Typed JS auto typing animation............
