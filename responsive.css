@@ -43,12 +43,12 @@
     position: fixed;
     top:63px;
     right: 0px;
-    background-color: rgba(0, 119, 255, 0.913);
+    background-color: rgba(92, 168, 255, 0.968);
+    backdrop-filter: blur(10px);
     padding: 20px;
     color: white;
     height: auto;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.171);
-    cursor: none;
     z-index: 777;
     border-radius: 10px 0px 0px 10px;
     
@@ -62,6 +62,7 @@
 
     .items a:hover {
         color: rgb(226, 208, 6);
+        cursor: none;
     }
 
 
