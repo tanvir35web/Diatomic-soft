@@ -11,6 +11,8 @@ ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
 ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
 ScrollReveal().reveal(".image", {delay: 100, origin: "right"});
 
+ScrollReveal().reveal(".hero-para", {delay: 100, origin: "bottom"});
+
 ScrollReveal().reveal(".services-heading", {delay: 100, origin: "top"});
 ScrollReveal().reveal(".services-para", {delay: 100, origin: "bottom"});
 
