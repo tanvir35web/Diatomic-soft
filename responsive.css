@@ -328,7 +328,7 @@
         padding: 80px 30px;
     }
 
-    swiper .swiper-button-prev,
+    .swiper .swiper-button-prev,
     .swiper .swiper-button-next {
       cursor: none;
     }
