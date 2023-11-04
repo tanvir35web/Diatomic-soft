@@ -1,21 +1,71 @@
-
 // ............scroll reveal animation ............
 
-ScrollReveal({
-    reset: true,
-    distance: '70px',
-    duration: 800,
-    delay: 100
-});
+// ScrollReveal({
+//     reset: true,
+//     distance: '70px',
+//     duration: 800,
+//     delay: 100
+// });
 
-ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
-ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
-ScrollReveal().reveal("img", {delay: 100, origin: "right"});
-ScrollReveal().reveal("p", {delay: 100, origin: "left"});
-ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
-ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
-ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
-ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
+// ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
+// ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
+// ScrollReveal().reveal("img", {origin: "right"});
+// ScrollReveal().reveal("p", {delay: 100, origin: "left"});
+// ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
+// ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
+// ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
+// ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
+
+
+// ................ Swiper js .....................
+
+var swiper = new Swiper(".mySwiper", {
+
+    slidesPerView: 4,
+    spaceBetween: 20,
+    centeredSlides: false,
+    grabCursor: true,
+    freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    mousewheel: false,
+    keyboard: true,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
+
+    breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+        2000: {
+            slidesPerView: 5,
+        }
+   
+    }
+  });
+
+
+
+
+
 
 
 //............ Typed JS auto typing animation............
@@ -36,4 +86,6 @@ const navList = document.querySelector(".nav-list");
 menuBtn.addEventListener("click", () => {
     items.classList.toggle("active");
 });
+
+
 

@@ -299,4 +299,29 @@
         margin: 10px 0;
     }
 
+/*................Team section start.............. */
+
+    .team { 
+        padding: 0 10px;
+    }
+
+    .team p {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .swiper-slide {   
+        padding: 80px 30px;
+    }
+    .swiper .swiper-button-prev::after,
+    .swiper .swiper-button-next::after {
+        font-size: 20px;
+        color: rgb(21, 165, 255);
+    }
+
+    .team-card p {
+        font-size: 14px;
+      }
+
+
+
   }
