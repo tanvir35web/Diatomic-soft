@@ -2,14 +2,14 @@
 
 ScrollReveal({
     reset: true,
-    distance: '70px',
+    distance: '60px',
     duration: 800,
     delay: 100
 });
 
 ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
 ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
-ScrollReveal().reveal(".image", {delay: 100, origin: "right"});
+ScrollReveal().reveal(".image", {delay: 100, distance: '70px', origin: "bottom"});
 
 ScrollReveal().reveal(".hero-para", {delay: 100, origin: "bottom"});
 
