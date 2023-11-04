@@ -9,9 +9,17 @@ ScrollReveal({
 
 ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
 ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
-ScrollReveal().reveal("img", {origin: "right"});
-ScrollReveal().reveal("p", {delay: 100, origin: "left"});
-ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
+ScrollReveal().reveal(".image", {delay: 100, origin: "right"});
+
+ScrollReveal().reveal(".services-heading", {delay: 100, origin: "top"});
+ScrollReveal().reveal(".services-para", {delay: 100, origin: "bottom"});
+
+ScrollReveal().reveal(".projects-heading", {origin: "top"});
+ScrollReveal().reveal(".projects-para", {origin: "top"});
+
+ScrollReveal().reveal(".team-heading", {delay: 100, origin: "top"});
+ScrollReveal().reveal(".team-para", {delay: 100, origin: "bottom"});
+
 ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
 ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
 ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
@@ -65,9 +73,6 @@ var swiper = new Swiper(".mySwiper", {
 
 
 
-
-
-
 //............ Typed JS auto typing animation............
 
 var typed = new Typed(".auto-type", {
@@ -76,6 +81,8 @@ var typed = new Typed(".auto-type", {
     backSpeed: 50,
     loop: true 
 });
+
+
 
 // .............side Nav bar...............
 
