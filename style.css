@@ -17,9 +17,8 @@
 }
 
 body {
-    background: var(--bg-color);
-    overflow-x: hidden;
-    
+    background: var(--bg-color); 
+    scroll-behavior: smooth;
 }
 
 /* .....................Nav bar start................ */
@@ -28,7 +27,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #0032f93c;
     padding: 10px 20px;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    backdrop-filter: blur(15px);
+    z-index: 999;
+    transition: .5s ease;
 }
 
 .navbar .left {
@@ -55,6 +63,12 @@ body {
 
 .menu-btn {
     display: none;
+}
+
+/* Nav bar hide and show for scrolling */
+
+.nav--hidden{
+    transform: translateY(-60px);
 }
 
 /* .....................Nav bar end................ */
@@ -93,13 +107,12 @@ body {
 /* ..............Home section start............ */
 
 .home {
-    height: 70vh;
+    height: auto;
 }
 
 .home-container {
     display: flex;
-    flex-wrap: wrap;
-    padding: 100px 150px;
+    padding: 150px 150px;
     justify-content: space-between;
     align-items: center;
 
@@ -144,6 +157,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 90px;
+    padding-top: 0px;
 }
 
 .services-heading {
@@ -324,9 +338,9 @@ transition: .3s ease;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 }
 
-/* .project:hover{
+.project:hover{
     scale: 1.03;
-} */
+}
 
 .project img {
     width: 250px;
@@ -400,12 +414,14 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
   }
 
   .team-card h1 {
-    font-size: 20px;
+    font-size: 18px;
     margin: 20px;
+    font-weight: 500;
   }
 
   .team-card p {
-    font-size: 16px;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 
   

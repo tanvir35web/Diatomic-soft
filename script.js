@@ -24,7 +24,7 @@ ScrollReveal().reveal(".team-para", {delay: 100, origin: "bottom"});
 
 ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
 ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
-ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
+
 
 
 // ................ Swiper js .....................
@@ -32,7 +32,7 @@ ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200
 var swiper = new Swiper(".mySwiper", {
 
     slidesPerView: 4,
-    spaceBetween: 20,
+    spaceBetween: 15,
     centeredSlides: false,
     grabCursor: true,
     freeMode: true,
@@ -96,5 +96,21 @@ menuBtn.addEventListener("click", () => {
     items.classList.toggle("active");
 });
 
+
+// ...............Nav bar visible for scroll-up..................
+
+
+const navbar = document.querySelector(".navbar");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    if(lastScrollY < window.scrollY) {
+        navbar.classList.add("nav--hidden");
+    } else {
+        navbar.classList.remove("nav--hidden");
+    }
+
+    lastScrollY = window.scrollY;
+});
 
 
