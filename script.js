@@ -1,20 +1,20 @@
 // ............scroll reveal animation ............
 
-// ScrollReveal({
-//     reset: true,
-//     distance: '70px',
-//     duration: 800,
-//     delay: 100
-// });
+ScrollReveal({
+    reset: true,
+    distance: '70px',
+    duration: 800,
+    delay: 100
+});
 
-// ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
-// ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
-// ScrollReveal().reveal("img", {origin: "right"});
-// ScrollReveal().reveal("p", {delay: 100, origin: "left"});
-// ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
-// ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
-// ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
-// ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
+ScrollReveal().reveal(".main-heading", {delay: 100, origin: "left"});
+ScrollReveal().reveal(".auto-heading", {delay: 100, origin: "top", interval: 200});
+ScrollReveal().reveal("img", {origin: "right"});
+ScrollReveal().reveal("p", {delay: 100, origin: "left"});
+ScrollReveal().reveal("h1", {delay: 100, origin: "top"});
+ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
+ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
+ScrollReveal().reveal(".navbar .left", {delay: 100, origin: "top", interval: 200});
 
 
 // ................ Swiper js .....................
