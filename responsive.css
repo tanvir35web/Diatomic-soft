@@ -31,10 +31,6 @@
         display: block;
     }
 
-    body {
-        position: relative;
-
-    }
 
    .items.active{
     display: flex;
@@ -57,7 +53,8 @@
     .items a {
         margin-top: 30px;
         z-index: 999;
-        font-weight: 400
+        font-weight: 400;
+        cursor: pointer;
     }
     .items a:last-child {
         margin-bottom: 20px;
@@ -65,7 +62,7 @@
 
     .items a:hover {
         color: rgb(226, 208, 6);
-        cursor: none;
+        cursor: pointer;
     }
 
 
@@ -155,24 +152,23 @@
         align-items: center;
         padding: 20px 5px;
         margin-bottom: 80px;
-    }
-    .wrapper .left-service img {
-        width: 300px;
-        border-radius: 0px;
         position: relative;
     }
-    .wrapper .left-service {
-    
-        margin-left: 0%;
+
+
+    .wrapper .left-service img {
+        width: 300px;
+        
         
     }
+    
     .wrapper .right-service {
         position: absolute;
         background-color: rgba(0, 0, 79, 0.468);
-        width: 320px;
+        width: 310.8px;
         color: white;
         padding: 30px 20px;
-        left: 5%;
+        left: 0;
         margin-top: 480px;
         backdrop-filter: blur(10px);
         border-radius: 20px;
@@ -198,7 +194,6 @@
 .wrapper .left-service.two img {
     width: 300px;
     border-radius: 10px;
-    position: relative;
 }
 .wrapper .left-service.two {
     
@@ -209,10 +204,10 @@
 .wrapper .right-service.two {
     position: absolute;
     background-color: #02564f8e;
-    width: 320px;
+    width: 310.8px;
     color: white;
     padding: 30px 20px;
-    left: 5%;
+    left: 0%;
     margin-top: 730px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -225,7 +220,6 @@
 .wrapper .left-service.three img {
     width: 300px;
     border-radius: 10px;
-    position: relative;
 }
 .wrapper .left-service.three {
     
@@ -236,10 +230,10 @@
 .wrapper .right-service.three {
     position: absolute;
     background-color: #5602028e;
-    width: 320px;
+    width: 310.8px;
     color: white;
     padding: 30px 20px;
-    left: 5%;
+    left: 0%;
     margin-top: 790px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -252,7 +246,6 @@
 .wrapper .left-service.four img {
     width: 300px;
     border-radius: 10px;
-    position: relative;
 }
 .wrapper .left-service.four {
     
@@ -263,10 +256,10 @@
 .wrapper .right-service.four {
     position: absolute;
     background-color: #02564f8e;
-    width: 320px;
+    width: 310.8px;
     color: white;
     padding: 30px 20px;
-    left: 5%;
+    left: 0%;
     margin-top: 850px;
     backdrop-filter: blur(10px);
     border-radius: 20px;

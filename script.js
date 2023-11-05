@@ -4,6 +4,7 @@
 const menuBtn = document.querySelector(".menu-btn");
 const items = document.querySelector(".items");
 const navLinks = document.querySelectorAll(".nav-link");
+const fullBody = document.getElementById("main"); 
 
 menuBtn.addEventListener("click", () => {
     items.classList.toggle("active");
@@ -16,6 +17,20 @@ navLinks.forEach(link => {
         }
     });
 });
+
+window.addEventListener("scroll", () => {
+    if (items.classList.contains("active")) {
+        items.classList.remove("active");
+    }
+});
+
+fullBody.addEventListener("click", () => {
+    if (items.classList.contains("active")) {
+        items.classList.remove("active");
+    }
+});
+
+
 
 
 
