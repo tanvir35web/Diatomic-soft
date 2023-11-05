@@ -55,9 +55,12 @@
     }
 
     .items a {
-        margin-top: 20px;
+        margin-top: 30px;
         z-index: 999;
         font-weight: 400
+    }
+    .items a:last-child {
+        margin-bottom: 20px;
     }
 
     .items a:hover {

@@ -1,6 +1,39 @@
 
+// .............side Nav bar...............
+
+const menuBtn = document.querySelector(".menu-btn");
+const items = document.querySelector(".items");
+const navLinks = document.querySelectorAll(".nav-link");
+
+menuBtn.addEventListener("click", () => {
+    items.classList.toggle("active");
+});
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        if (items.classList.contains("active")) {
+            items.classList.remove("active");
+        }
+    });
+});
 
 
+
+// ...............Nav bar visible for scroll-up..................
+
+
+const navbar = document.querySelector(".navbar");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    if(lastScrollY < window.scrollY) {
+        navbar.classList.add("nav--hidden");
+    } else {
+        navbar.classList.remove("nav--hidden");
+    }
+
+    lastScrollY = window.scrollY;
+});
 
 // ............scroll reveal animation ............
 
@@ -28,6 +61,17 @@ ScrollReveal().reveal(".team-para", {delay: 100, origin: "bottom"});
 
 ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
 ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
+
+
+//..................... pages redirecting..............
+
+let projectBtn = document.getElementById("btn-projects");
+
+projectBtn.addEventListener("click", () => {
+    window.open("projects.html", "_blank");
+});
+
+
 
 
 
@@ -89,40 +133,4 @@ var typed = new Typed(".auto-type", {
 });
 
 
-// .............side Nav bar...............
-
-const menuBtn = document.querySelector(".menu-btn");
-const items = document.querySelector(".items");
-const navList = document.querySelector(".nav-list");
-
-menuBtn.addEventListener("click", () => {
-    items.classList.toggle("active");
-});
-
-
-// ...............Nav bar visible for scroll-up..................
-
-
-const navbar = document.querySelector(".navbar");
-let lastScrollY = window.scrollY;
-
-window.addEventListener("scroll", () => {
-    if(lastScrollY < window.scrollY) {
-        navbar.classList.add("nav--hidden");
-    } else {
-        navbar.classList.remove("nav--hidden");
-    }
-
-    lastScrollY = window.scrollY;
-});
-
-
-
-//..................... pages redirecting..............
-
-let projectBtn = document.getElementById("btn-projects");
-
-projectBtn.addEventListener("click", () => {
-    window.open("projects.html", "_blank");
-});
 
