@@ -1,3 +1,7 @@
+
+
+
+
 // ............scroll reveal animation ............
 
 ScrollReveal({
@@ -85,7 +89,6 @@ var typed = new Typed(".auto-type", {
 });
 
 
-
 // .............side Nav bar...............
 
 const menuBtn = document.querySelector(".menu-btn");
@@ -113,4 +116,13 @@ window.addEventListener("scroll", () => {
     lastScrollY = window.scrollY;
 });
 
+
+
+//..................... pages redirecting..............
+
+let projectBtn = document.getElementById("btn-projects");
+
+projectBtn.addEventListener("click", () => {
+    window.open("projects.html", "_blank");
+});
 

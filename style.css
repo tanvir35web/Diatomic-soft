@@ -163,6 +163,7 @@ body {
 .services-heading {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .services-para {
@@ -308,7 +309,7 @@ body {
 }
 
 .projects-heading {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 30px;
     margin-top: 20px;
 }
@@ -353,6 +354,23 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     text-transform: uppercase;
 }
 
+
+#btn-projects {
+    font-size: 16px;
+    padding: 10px 50px;
+    background-color: #00458be0;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#btn-projects:hover {
+    background-color: #00366d;
+}
+
 /* ............Projects section End........... */
 
 .team {
@@ -365,7 +383,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 }
 
 .team h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
