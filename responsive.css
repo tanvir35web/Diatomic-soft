@@ -54,7 +54,7 @@
         margin-top: 30px;
         z-index: 999;
         font-weight: 400;
-        cursor: pointer;
+        cursor: not-allowed;
     }
     .items a:last-child {
         margin-bottom: 20px;
@@ -62,7 +62,7 @@
 
     .items a:hover {
         color: rgb(226, 208, 6);
-        cursor: pointer;
+        cursor: none;
     }
 
 
