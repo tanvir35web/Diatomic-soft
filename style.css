@@ -446,14 +446,61 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     margin-bottom: 5px;
   }
 
+/*................ About section start ...............*/
 
   .about {
+    padding: 10px 50px;
+    
+  }
+
+  .about-heading {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .container-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  img {
+    width: 1000px;
+    
+  }
+
+  .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    padding: 100px 50px;
   }
+
+  .about-left {
+    
+    text-orientation: mixed;
+    width: 50%;
+    height: auto;
+    color: #00366d;
+    font-size: 47px;
+    writing-mode: vertical-rl;
+    padding-right: 50px;
+  } 
+
+  .about-right {   
+    
+    max-width: 700px;
+  }
+
+  .about-right p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /*................ About section end ...............*/
 
   

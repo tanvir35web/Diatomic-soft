@@ -54,17 +54,13 @@
         margin-top: 30px;
         z-index: 999;
         font-weight: 400;
-        cursor: not-allowed;
+        cursor: pointer;
+        user-select: none;
+        
     }
     .items a:last-child {
         margin-bottom: 20px;
     }
-
-    .items a:hover {
-        color: rgb(226, 208, 6);
-        cursor: none;
-    }
-
 
     /* ...............Home.............. */
 
@@ -339,6 +335,64 @@
     .team-card p {
         font-size: 14px;
       }
+
+
+    /*................ About section start ...............*/
+
+
+    .about {
+        padding: 10px 50px;
+        
+      }
+    
+      .about-heading {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+    
+      .container-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+    
+      img {
+        width: 300px;
+        
+      }
+    
+      .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 60px 5px;
+      }
+    
+      .about-left {
+        
+        text-orientation: mixed;
+        width: 20%;
+        height: auto;
+        color: #00366d;
+        font-size: 47px;
+        writing-mode: vertical-rl;
+        padding-right: 5px;
+      } 
+
+      .about-right {   
+        
+        width: 230px;
+      }
+    
+      .about-right p {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    
 
 
 
