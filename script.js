@@ -98,11 +98,12 @@ ScrollReveal().reveal(".services-para", {delay: 100, origin: "bottom"});
 ScrollReveal().reveal(".projects-heading", {origin: "top"});
 ScrollReveal().reveal(".projects-para", {origin: "top"});
 
-ScrollReveal().reveal(".team-heading", {delay: 100, origin: "top"});
+ScrollReveal().reveal(".team-heading, .about-heading, button", {delay: 50, origin: "top"});
 ScrollReveal().reveal(".team-para", {delay: 100, origin: "bottom"});
+ScrollReveal().reveal(".about-right", {origin: "bottom"});
 
 ScrollReveal().reveal(".project", {delay: 100, origin: "bottom", interval: 200});
-ScrollReveal().reveal(".right-service-odd, .right-service", {delay: 100, origin: "left"});
+ScrollReveal().reveal(".right-service-odd, .right-service, .vertical-heading", {delay: 100, origin: "left"});
 
 
 //..................... pages redirecting..............
