@@ -530,7 +530,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 
   .footer-container p {
     color: rgba(255, 255, 255, 0.671);
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .footer-column-wrapper {
@@ -549,6 +549,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.671);
     cursor: pointer;
+    font-size: 14px;
   }
 
   .footer-column li:hover {
@@ -557,7 +558,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 
   .footer-column li:first-child {
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 25px;
     font-weight: 600;
   }
@@ -572,6 +573,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.671);
     cursor: pointer;
+    font-size: 14px;
   }
 
   .social {
