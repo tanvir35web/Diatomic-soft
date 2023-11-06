@@ -391,7 +391,7 @@
         line-height: 1.6;
       }
 
-      #more {
+      .showFull {
         display: none;
       }
     

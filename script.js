@@ -10,6 +10,8 @@ menuBtn.addEventListener("click", () => {
     items.classList.toggle("active");
 });
 
+// when click any nav item then link active and close navbar
+
 navLinks.forEach(link => {
     link.addEventListener("click", () => {
         if (items.classList.contains("active")) {
@@ -17,6 +19,8 @@ navLinks.forEach(link => {
         }
     });
 });
+
+// side nav bar close when nav outside touch or scrolling
 
 window.addEventListener("scroll", () => {
     if (items.classList.contains("active")) {
@@ -30,23 +34,31 @@ fullBody.addEventListener("click", () => {
     }
 });
 
+
+
 // about section see more button
 
+
 function myFunction() {
-    var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
-  
-
-    if (moreText.style.display = "none") {
-        moreText.style.display = "block";
-        btnText.innerHTML = "See less"; 
-        
-      } 
-  }
+    
+    moreText.classList.toggle("showFull") 
+}
 
 
+var button = document.getElementById("myBtn");
 
+let isToggled = false;
+    
+    button.addEventListener('click', () => {
+      if (isToggled) {
+        button.textContent = 'See more';
+      } else {
+        button.textContent = 'See less';
+      }
+    
+      isToggled = !isToggled; 
+    });
  
 
 // ...............Nav bar visible for scroll-up..................
