@@ -486,9 +486,10 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     width: 50%;
     height: auto;
     color: #00366d;
-    font-size: 47px;
+    font-size: 45px;
     writing-mode: vertical-rl;
     padding-right: 50px;
+    margin-left: -20px;
   } 
 
   .about-right {   
@@ -499,6 +500,10 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
   .about-right p {
     font-size: 16px;
     line-height: 1.6;
+  }
+
+  #myBtn {
+    display: none;
   }
 
   /*................ About section end ...............*/

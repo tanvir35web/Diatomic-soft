@@ -340,6 +340,8 @@
 
     .about {
         padding: 10px 50px;
+        background-color: #ffffff57;
+        border-radius: 60px 60px 0 0;
         
       }
     
@@ -373,28 +375,41 @@
       .about-left {
         
         text-orientation: mixed;
-        width: 20%;
+        width: auto;
         height: auto;
         color: #00366d;
-        font-size: 47px;
+        font-size: 55px;
         writing-mode: vertical-rl;
-        padding-right: 5px;
+        padding-right: 0px;
       } 
 
       .about-right {   
-        
-        width: 230px;
+        width: 232px;
       }
     
       .about-right p {
         font-size: 14px;
         line-height: 1.6;
+        text-align: justify;
+        padding-right: 13px;
       }
 
       .showFull {
         display: none;
+    
       }
     
+      #myBtn {
+        display: block;
+        font-size: 14px;
+        padding: 5px 15px;
+        background-color: #00458be0;
+        color: white;
+        color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+      }
 
 
 
