@@ -55,16 +55,12 @@
         z-index: 999;
         font-weight: 400;
         cursor: not-allowed;
+        user-select: none;
+        
     }
     .items a:last-child {
         margin-bottom: 20px;
     }
-
-    .items a:hover {
-        color: rgb(226, 208, 6);
-        cursor: none;
-    }
-
 
     /* ...............Home.............. */
 
