@@ -490,11 +490,13 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
     writing-mode: vertical-rl;
     padding-right: 50px;
     margin-left: -20px;
+    margin-bottom: 23px;
   } 
 
   .about-right {   
     
     max-width: 700px;
+    
   }
 
   .about-right p {
@@ -507,5 +509,88 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
   }
 
   /*................ About section end ...............*/
+
+  /* ................Footer start................. */
+
+  .footer {
+    background-color: #00366d;
+    color: white;
+    
+  }
+
+  .footer-container {
+    padding: 0px 60px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container p {
+    color: rgba(255, 255, 255, 0.671);
+  }
+
+  .footer-column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-column {
+    margin: 0 80px;
+    margin-bottom: 90px;
+  }
+
+  .footer-column li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.671);
+    cursor: pointer;
+  }
+
+  .footer-column li:hover {
+    color: #ffffff;
+  }
+
+  .footer-column li:first-child {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+
+  .footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-contact .phone {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.671);
+    cursor: pointer;
+  }
+
+  .social {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  .footer-contact .social i {
+    margin-right: 17px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, 0.671);
+    cursor: pointer;
+
+  }
+
+  .footer-contact .social i:hover{
+    color: white;
+  }
+
 
   

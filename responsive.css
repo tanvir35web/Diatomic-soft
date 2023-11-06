@@ -411,6 +411,48 @@
         border-radius: 5px;
       }
 
+      
+  /*................ About section end ...............*/
 
+  /* ................Footer start................. */
+
+
+  .footer-container {
+    padding: 0px 10px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+  }
+
+  .footer-container p {
+    text-align: center;
+  }
+
+  .footer-column {
+    margin: 0 80px;
+    margin-bottom: 90px;
+  }
+
+  
+  .footer-column-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+  }
+
+
+
+  .footer-column li:first-child {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
 
   }

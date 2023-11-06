@@ -172,7 +172,7 @@ var typed = new Typed(".auto-type", {
     strings: ["Software", "Web Application", "Android Application", "iOS Application", "IT Solution", "Quality Assurance", "Testing"],
     typeSpeed: 50,
     backSpeed: 50,
-    loop: true 
+    loop: true,
 });
 
 
