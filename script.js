@@ -30,9 +30,24 @@ fullBody.addEventListener("click", () => {
     }
 });
 
+// about section see more button
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+
+    if (moreText.style.display = "none") {
+        moreText.style.display = "block";
+        btnText.innerHTML = "See less"; 
+        
+      } 
+  }
 
 
 
+ 
 
 // ...............Nav bar visible for scroll-up..................
 
