@@ -55,6 +55,7 @@
         z-index: 999;
         font-weight: 400;
         cursor: not-allowed;
+        user-select: none;
     }
     .items a:last-child {
         margin-bottom: 20px;
