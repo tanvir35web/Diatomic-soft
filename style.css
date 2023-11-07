@@ -330,13 +330,13 @@ body {
 }
 
 .project {
-width: 300px;
-background-color: rgba(255, 255, 255, 0.29);
-padding: 40px 20px;
-border-radius: 30px;
-backdrop-filter: blur(10px);
-transition: .3s ease;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.29);
+    padding: 40px 20px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    transition: .3s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 }
 
 .project:hover{
@@ -515,6 +515,7 @@ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
   .footer {
     background-color: #00366d;
     color: white;
+    border-radius: 100px 100px 0 0 ;
     
   }
 
