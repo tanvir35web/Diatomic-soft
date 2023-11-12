@@ -599,4 +599,19 @@ body {
   }
 
 
+
+
+  /* Custom scrollbar */
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #dbedffbf;
+}
+::-webkit-scrollbar-thumb{
+  background: #00366d5b;
+  border-radius: 20px;
+}
+
   
