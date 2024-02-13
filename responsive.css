@@ -108,7 +108,6 @@
         font-size: 18px;
         font-weight: 600;
         margin-top: 75px;
-        
     }
 
     /* ............Services section start........... */
@@ -320,7 +319,7 @@
     /*................ About section start ...............*/
 
     .about {
-        padding: 10px 50px;
+        padding: 10px 40px;
         background-color: #ffffff57;
         border-radius: 60px 60px 0 0;
     }
@@ -347,7 +346,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 50px 5px;
+        padding: 40px 5px;
     }
 
     .about-left {
@@ -355,7 +354,7 @@
         width: auto;
         height: auto;
         color: #00366d;
-        font-size: 55px;
+        font-size: 35px;
         writing-mode: vertical-rl;
         padding-right: 0px;
     }
