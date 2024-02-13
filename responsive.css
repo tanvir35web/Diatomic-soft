@@ -2,7 +2,6 @@
     body {
         background: var(--bg-color);
         scroll-behavior: smooth;
-        overflow-x: hidden;
     }
     /* .................logo............ */
 
@@ -66,7 +65,7 @@
 
     .home {
         height: auto;
-        width: 100vw;
+        width: 95vw;
     }
 
     .home-container {
@@ -89,7 +88,7 @@
         margin-top: 20px;
     }
     .home-container .home-left p {
-        font-size: 14px;
+        font-size: 16px;
     }
     .home-container .home-left h1 span {
         font-size: 22px;
@@ -97,8 +96,8 @@
         border-radius: 5px;
     }
     .home-right img {
-        width: 100vw;
-        padding: 15px;
+        width: 90vw;
+        padding: 10px;
         margin-top: 20px;
         margin-bottom: 25px;
         align-items: center;
@@ -108,6 +107,7 @@
         font-size: 18px;
         font-weight: 600;
         margin-top: 75px;
+        background: rgba(0, 0, 0, 0.237);
     }
 
     /* ............Services section start........... */
@@ -150,20 +150,20 @@
     }
 
     .wrapper .left-service img {
-        width: 300px;
+        width: 280px;
     }
 
     .wrapper .right-service {
         position: absolute;
         background-color: rgba(0, 0, 79, 0.468);
-        width: 310.8px;
+        width: 280px;
         color: white;
         padding: 30px 20px;
         left: 0;
         margin-top: 480px;
         backdrop-filter: blur(10px);
         border-radius: 20px;
-        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+        box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.26);
     }
     .wrapper .right-service h1 {
         font-size: 20px;
@@ -176,7 +176,7 @@
     /* ..........TWO........... */
 
     .wrapper .left-service.two img {
-        width: 300px;
+        width: 280px;
         border-radius: 10px;
     }
     .wrapper .left-service.two {
@@ -187,20 +187,20 @@
     .wrapper .right-service.two {
         position: absolute;
         background-color: #02564f8e;
-        width: 310.8px;
+        width: 280px;
         color: white;
         padding: 30px 20px;
         left: 0%;
         margin-top: 730px;
         backdrop-filter: blur(10px);
         border-radius: 20px;
-        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+        box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.26);
     }
 
     /* ..........Three........... */
 
     .wrapper .left-service.three img {
-        width: 300px;
+        width: 280px;
         border-radius: 10px;
     }
     .wrapper .left-service.three {
@@ -211,20 +211,20 @@
     .wrapper .right-service.three {
         position: absolute;
         background-color: #5602028e;
-        width: 310.8px;
+        width: 280px;
         color: white;
         padding: 30px 20px;
         left: 0%;
         margin-top: 790px;
         backdrop-filter: blur(10px);
         border-radius: 20px;
-        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+        box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.26);
     }
 
     /* ..........Four........... */
 
     .wrapper .left-service.four img {
-        width: 300px;
+        width: 280px;
         border-radius: 10px;
     }
     .wrapper .left-service.four {
@@ -235,14 +235,14 @@
     .wrapper .right-service.four {
         position: absolute;
         background-color: #02564f8e;
-        width: 310.8px;
+        width: 280px;
         color: white;
         padding: 30px 20px;
         left: 0%;
         margin-top: 850px;
         backdrop-filter: blur(10px);
         border-radius: 20px;
-        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+        box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.26);
     }
 
     /* ............Projects section Start........... */
@@ -325,7 +325,7 @@
     }
 
     .about-heading {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 40px;
         margin-bottom: 50px;
         text-align: center;
@@ -339,14 +339,14 @@
     }
 
     img {
-        width: 300px;
+        width: 250px;
     }
 
     .about-content {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 60px 5px;
+        padding: 50px 5px;
     }
 
     .about-left {
@@ -360,14 +360,13 @@
     }
 
     .about-right {
-        width: 232px;
+        width: 190px;
     }
 
     .about-right p {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.6;
         text-align: justify;
-        padding-right: 13px;
     }
 
     .showFull {
