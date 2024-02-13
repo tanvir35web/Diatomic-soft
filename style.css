@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
-    
 }
 
 :root {
-    --bg-color:rgb(208, 229, 255);
+    --bg-color: rgb(208, 229, 255);
     --black-text-color: rgb(36, 36, 36);
-    --primary-color: #00468B;
+    --primary-color: #00468b;
     --white-text-color: white;
 }
 
 body {
-    background: var(--bg-color); 
+    background: var(--bg-color);
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /* .....................Nav bar start................ */
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,6 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 
 .navbar .left img {
@@ -59,7 +58,6 @@ body {
 
 .menu-btn i {
     font-size: 25px;
-    
 }
 
 .menu-btn {
@@ -68,21 +66,17 @@ body {
 
 /* Nav bar hide and show for scrolling */
 
-.nav--hidden{
+.nav--hidden {
     transform: translateY(-60px);
 }
 
 /* .....................Nav bar end................ */
 
-
 /* ..................Manu Items Start................ */
-
-
 
 .items {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .items a {
@@ -99,11 +93,7 @@ body {
     color: var(--primary-color);
 }
 
-
 /* ....................Menu Items End................ */
-
-
-
 
 /* ..............Home section start............ */
 
@@ -116,7 +106,6 @@ body {
     padding: 150px 150px;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .home-container .home-left {
@@ -132,14 +121,13 @@ body {
 }
 .home-container .home-left h1 span {
     color: #ffffff;
-    background-color: #00468B;
+    background-color: #00468b;
     font-size: 35px;
     padding: 5px;
     border-radius: 5px;
-    
 }
 
-.home-right img{
+.home-right img {
     width: 500px;
 }
 
@@ -149,8 +137,6 @@ body {
 }
 
 /* ............Services section start........... */
-
-
 
 .services-container {
     display: flex;
@@ -203,9 +189,7 @@ body {
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.26);
-   
 }
-
 
 .wrapper .right-service h1 {
     margin-bottom: 20px;
@@ -218,9 +202,7 @@ body {
     color: #f0f0f0;
 }
 
-
 /* .....................two.................... */
-
 
 .wrapper .left-service.two img {
     width: 700px;
@@ -229,11 +211,8 @@ body {
 }
 
 .wrapper .left-service.two {
-    
     margin-right: -31%;
 }
-
-
 
 .wrapper .right-service.two {
     position: absolute;
@@ -245,7 +224,6 @@ body {
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.26);
-   
 }
 .wrapper .right-service.two h1 {
     margin-bottom: 20px;
@@ -260,7 +238,6 @@ body {
 
 /* .....................four.................... */
 
-
 .wrapper .left-service.four img {
     width: 700px;
     border-radius: 10px;
@@ -268,11 +245,8 @@ body {
 }
 
 .wrapper .left-service.four {
-    
     margin-right: -31%;
 }
-
-
 
 .wrapper .right-service.four {
     position: absolute;
@@ -284,7 +258,6 @@ body {
     backdrop-filter: blur(20px);
     border-radius: 20px;
     box-shadow: 5px 7px 15px rgba(0, 0, 0, 0.26);
-   
 }
 .wrapper .right-service.four h1 {
     margin-bottom: 20px;
@@ -298,7 +271,6 @@ body {
 }
 
 /* ............Services section end........... */
-
 
 /* ............Projects section Start........... */
 
@@ -337,11 +309,11 @@ body {
     padding: 40px 20px;
     border-radius: 30px;
     backdrop-filter: blur(10px);
-    transition: .3s ease;
+    transition: 0.3s ease;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
 }
 
-.project:hover{
+.project:hover {
     scale: 1.03;
 }
 
@@ -355,7 +327,6 @@ body {
     margin: 10px 0;
     text-transform: uppercase;
 }
-
 
 #btn-projects {
     font-size: 16px;
@@ -391,34 +362,29 @@ body {
 
 /*................swiper JS.............. */
 
-  .swiper {
+.swiper {
     width: 100%;
-    height: 100%; 
+    height: 100%;
     margin-bottom: 30px;
-    
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px 50px;
-  }
-
-
+}
 
 .swiper .swiper-button-prev::after,
 .swiper .swiper-button-next::after {
-  font-size: 30px;
-  color: rgb(21, 165, 255);
-  
+    font-size: 30px;
+    color: rgb(21, 165, 255);
 }
 
 /* team card design */
 
-
-  .team-card {
+.team-card {
     width: 300px;
     background-color: rgba(255, 255, 255, 0.29);
     padding: 40px 20px;
@@ -426,64 +392,59 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.276);
     backdrop-filter: blur(10px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.071);
-  }
+}
 
-  .team-card img {
+.team-card img {
     width: 150px;
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.119);
-    
-  }
+}
 
-  .team-card h1 {
+.team-card h1 {
     font-size: 18px;
     margin: 20px;
     font-weight: 500;
-  }
+}
 
-  .team-card p {
+.team-card p {
     font-size: 14px;
     margin-bottom: 5px;
-  }
+}
 
 /*................ About section start ...............*/
 
-  .about {
+.about {
     padding: 10px 50px;
-    
-  }
+}
 
-  .about-heading {
+.about-heading {
     font-size: 30px;
     margin-top: 40px;
     margin-bottom: 50px;
     text-align: center;
-  }
+}
 
-  .container-about {
+.container-about {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-  }
+}
 
-  img {
+img {
     width: 800px;
-    
-  }
+}
 
-  .about-content {
+.about-content {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 100px 50px;
-  }
+}
 
-  .about-left {
-    
+.about-left {
     text-orientation: mixed;
     width: 50%;
     height: auto;
@@ -493,35 +454,32 @@ body {
     padding-right: 50px;
     margin-left: -20px;
     margin-bottom: 23px;
-  } 
+}
 
-  .about-right {   
-    
+.about-right {
     max-width: 700px;
-    
-  }
+}
 
-  .about-right p {
+.about-right p {
     font-size: 16px;
     line-height: 1.6;
-  }
+}
 
-  #myBtn {
+#myBtn {
     display: none;
-  }
+}
 
-  /*................ About section end ...............*/
+/*................ About section end ...............*/
 
-  /* ................Footer start................. */
+/* ................Footer start................. */
 
-  .footer {
+.footer {
     background-color: #00366d;
     color: white;
-    border-radius: 100px 100px 0 0 ;
-    
-  }
+    border-radius: 100px 100px 0 0;
+}
 
-  .footer-container {
+.footer-container {
     padding: 0px 10px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -529,89 +487,82 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .footer-container p {
+.footer-container p {
     color: rgba(255, 255, 255, 0.671);
     font-size: 13px;
-  }
+}
 
-  .footer-column-wrapper {
+.footer-column-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .footer-column {
+.footer-column {
     margin: 0 60px;
     margin-bottom: 50px;
-  }
+}
 
-  .footer-column li {
+.footer-column li {
     list-style: none;
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.671);
     cursor: pointer;
     font-size: 14px;
-  }
+}
 
-  .footer-column li:hover {
+.footer-column li:hover {
     color: #ffffff;
-  }
+}
 
-  .footer-column li:first-child {
+.footer-column li:first-child {
     color: white;
     font-size: 17px;
     margin-bottom: 25px;
     font-weight: 600;
-  }
+}
 
-  .footer-contact {
+.footer-contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+}
 
-  .footer-contact .phone {
+.footer-contact .phone {
     margin-bottom: 10px;
     color: rgba(255, 255, 255, 0.671);
     cursor: pointer;
     font-size: 14px;
-  }
+}
 
-  .social {
+.social {
     display: flex;
     justify-content: flex-start;
-  }
+}
 
-
-  .footer-contact .social i {
+.footer-contact .social i {
     margin-right: 17px;
     margin-top: 10px;
     font-size: 23px;
     color: rgba(255, 255, 255, 0.671);
     cursor: pointer;
+}
 
-  }
-
-  .footer-contact .social i:hover{
+.footer-contact .social i:hover {
     color: white;
-  }
+}
 
-
-
-
-  /* Custom scrollbar */
+/* Custom scrollbar */
 
 ::-webkit-scrollbar {
-  width: 7px;
+    width: 7px;
 }
 ::-webkit-scrollbar-track {
-  background: #dbedffbf;
+    background: #dbedffbf;
 }
-::-webkit-scrollbar-thumb{
-  background: #00366d5b;
-  border-radius: 20px;
+::-webkit-scrollbar-thumb {
+    background: #00366d5b;
+    border-radius: 20px;
 }
-
-  
