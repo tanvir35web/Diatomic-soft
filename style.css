@@ -18,7 +18,6 @@
 body {
     background: var(--bg-color);
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 /* .....................Nav bar start................ */
@@ -300,7 +299,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    padding: 0 200px;
 }
 
 .project {

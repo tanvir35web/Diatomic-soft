@@ -1,56 +1,54 @@
-
 @media only screen and (max-width: 1000px) {
-
-/* .................logo............ */
+    body {
+        background: var(--bg-color);
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+    /* .................logo............ */
 
     .navbar .left {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin-left: -20px;
+        margin-left: -10px;
     }
-    
+
     .navbar .left img {
         width: 50px;
         margin-right: -20px;
     }
-    
+
     .navbar .left .logoname {
         width: 150px;
         margin-left: 20px;
     }
 
-
     /* ................Item start........... */
     .items {
         display: none;
     }
-   
 
     .menu-btn {
         display: block;
     }
 
-
-   .items.active{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    top:63px;
-    right: 0px;
-    background-color: rgba(92, 168, 255, 0.968);
-    backdrop-filter: blur(10px);
-    padding: 20px;
-    color: white;
-    height: auto;
-    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.171);
-    z-index: 777;
-    border-radius: 10px 0px 0px 10px;
-    transition: 6s ease;
-    transition-property: left;
-    
-    
+    .items.active {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 63px;
+        right: 0px;
+        background-color: rgba(92, 168, 255, 0.968);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        color: white;
+        height: auto;
+        box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.171);
+        z-index: 777;
+        border-radius: 10px 0px 0px 10px;
+        transition: 6s ease;
+        transition-property: left;
     }
 
     .items a {
@@ -97,16 +95,15 @@
         font-size: 22px;
         padding: 2px 5px;
         border-radius: 5px;
-        
     }
-    .home-right img{
+    .home-right img {
         width: 100vw;
         padding: 15px;
         margin-top: 20px;
         margin-bottom: 25px;
         align-items: center;
     }
-    
+
     .auto-heading {
         font-size: 18px;
         font-weight: 600;
@@ -135,13 +132,12 @@
         margin-bottom: 20px;
         margin-top: 10px;
     }
-    
+
     .services-para {
         margin-bottom: 30px;
         font-size: 14px;
     }
 
-  
     /* ................One.............. */
 
     .wrapper {
@@ -153,13 +149,10 @@
         position: relative;
     }
 
-
     .wrapper .left-service img {
         width: 300px;
-        
-        
     }
-    
+
     .wrapper .right-service {
         position: absolute;
         background-color: rgba(0, 0, 79, 0.468);
@@ -171,132 +164,117 @@
         backdrop-filter: blur(10px);
         border-radius: 20px;
         box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
-       
     }
-    .wrapper .right-service h1 { 
-        font-size: 20px;    
+    .wrapper .right-service h1 {
+        font-size: 20px;
     }
-    
+
     .wrapper .right-service p {
         font-size: 14;
     }
 
+    /* ..........TWO........... */
 
+    .wrapper .left-service.two img {
+        width: 300px;
+        border-radius: 10px;
+    }
+    .wrapper .left-service.two {
+        margin-right: 0%;
+        margin-top: 220px;
+    }
 
+    .wrapper .right-service.two {
+        position: absolute;
+        background-color: #02564f8e;
+        width: 310.8px;
+        color: white;
+        padding: 30px 20px;
+        left: 0%;
+        margin-top: 730px;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+    }
 
+    /* ..........Three........... */
 
+    .wrapper .left-service.three img {
+        width: 300px;
+        border-radius: 10px;
+    }
+    .wrapper .left-service.three {
+        margin-right: 0%;
+        margin-top: 200px;
+    }
 
-/* ..........TWO........... */
+    .wrapper .right-service.three {
+        position: absolute;
+        background-color: #5602028e;
+        width: 310.8px;
+        color: white;
+        padding: 30px 20px;
+        left: 0%;
+        margin-top: 790px;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+    }
 
+    /* ..........Four........... */
 
-.wrapper .left-service.two img {
-    width: 300px;
-    border-radius: 10px;
-}
-.wrapper .left-service.two {
-    
-    margin-right: 0%;
-    margin-top: 220px;
-}
+    .wrapper .left-service.four img {
+        width: 300px;
+        border-radius: 10px;
+    }
+    .wrapper .left-service.four {
+        margin-right: 0%;
+        margin-top: 340px;
+    }
 
-.wrapper .right-service.two {
-    position: absolute;
-    background-color: #02564f8e;
-    width: 310.8px;
-    color: white;
-    padding: 30px 20px;
-    left: 0%;
-    margin-top: 730px;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
-   
-}
+    .wrapper .right-service.four {
+        position: absolute;
+        background-color: #02564f8e;
+        width: 310.8px;
+        color: white;
+        padding: 30px 20px;
+        left: 0%;
+        margin-top: 850px;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
+    }
 
-/* ..........Three........... */
-    
-.wrapper .left-service.three img {
-    width: 300px;
-    border-radius: 10px;
-}
-.wrapper .left-service.three {
-    
-    margin-right: 0%;
-    margin-top: 200px;
-}
+    /* ............Projects section Start........... */
 
-.wrapper .right-service.three {
-    position: absolute;
-    background-color: #5602028e;
-    width: 310.8px;
-    color: white;
-    padding: 30px 20px;
-    left: 0%;
-    margin-top: 790px;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
-   
-}
+    .projects {
+        margin-top: 250px;
+    }
 
-/* ..........Four........... */
-   
-.wrapper .left-service.four img {
-    width: 300px;
-    border-radius: 10px;
-}
-.wrapper .left-service.four {
-    
-    margin-right: 0%;
-    margin-top: 340px;
-}
+    .projects-heading {
+        font-size: 20px;
+    }
 
-.wrapper .right-service.four {
-    position: absolute;
-    background-color: #02564f8e;
-    width: 310.8px;
-    color: white;
-    padding: 30px 20px;
-    left: 0%;
-    margin-top: 850px;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
-    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.26);
-}
+    .projects-para {
+        font-size: 14px;
+        margin-bottom: 50px;
+        padding: 0 15px;
+        text-align: center;
+    }
 
-/* ............Projects section Start........... */
+    .wrapper-projects {
+        row-gap: 30px;
+        column-gap: 30px;
+    }
 
-.projects {
-    margin-top: 250px;
-}
-
-.projects-heading {
-    font-size: 20px;
-}
-
-
-.projects-para {
-    font-size: 14px;
-    margin-bottom: 50px;
-    padding: 0 15px;
-    text-align: center;
-}
-
-.wrapper-projects {
-    
-    row-gap: 30px;
-    column-gap: 30px;
-   
-}
-
-.project {
-    width: 300px;
-    background-color: rgba(255, 255, 255, 0.29);
-    padding: 40px 20px;
-    border-radius: 30px;
-    backdrop-filter: blur(10px);
-    transition: .3s ease;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+    .project {
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.29);
+        padding: 40px 20px;
+        border-radius: 30px;
+        backdrop-filter: blur(10px);
+        transition: 0.3s ease;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
     }
 
     .project h1 {
@@ -309,9 +287,9 @@
         margin: 10px 0;
     }
 
-/*................Team section start.............. */
+    /*................Team section start.............. */
 
-    .team { 
+    .team {
         padding: 0 10px;
     }
 
@@ -319,13 +297,13 @@
         font-size: 14px;
         margin-bottom: 0px;
     }
-    .swiper-slide {   
+    .swiper-slide {
         padding: 80px 30px;
     }
 
     .swiper .swiper-button-prev,
     .swiper .swiper-button-next {
-      cursor: none;
+        cursor: none;
     }
 
     .swiper .swiper-button-prev::after,
@@ -336,48 +314,42 @@
 
     .team-card p {
         font-size: 14px;
-      }
-
+    }
 
     /*................ About section start ...............*/
-
 
     .about {
         padding: 10px 50px;
         background-color: #ffffff57;
         border-radius: 60px 60px 0 0;
-        
-      }
-    
-      .about-heading {
+    }
+
+    .about-heading {
         font-size: 30px;
         margin-top: 40px;
         margin-bottom: 50px;
         text-align: center;
-      }
-    
-      .container-about {
+    }
+
+    .container-about {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
-      }
-    
-      img {
+    }
+
+    img {
         width: 300px;
-        
-      }
-    
-      .about-content {
+    }
+
+    .about-content {
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 60px 5px;
-      }
-    
-      .about-left {
-        
+    }
+
+    .about-left {
         text-orientation: mixed;
         width: auto;
         height: auto;
@@ -385,25 +357,24 @@
         font-size: 55px;
         writing-mode: vertical-rl;
         padding-right: 0px;
-      } 
+    }
 
-      .about-right {   
+    .about-right {
         width: 232px;
-      }
-    
-      .about-right p {
+    }
+
+    .about-right p {
         font-size: 14px;
         line-height: 1.6;
         text-align: justify;
         padding-right: 13px;
-      }
+    }
 
-      .showFull {
+    .showFull {
         display: none;
-    
-      }
-    
-      #myBtn {
+    }
+
+    #myBtn {
         display: block;
         font-size: 14px;
         padding: 5px 15px;
@@ -413,84 +384,75 @@
         border: none;
         outline: none;
         border-radius: 5px;
-      }
+    }
 
-      
-  /*................ About section end ...............*/
+    /*................ About section end ...............*/
 
-  /* ................Footer start................. */
+    /* ................Footer start................. */
 
-  .footer {
-    background-color: #00366d;
-    color: white;
-    border-radius: 0px;
-    
-  }
+    .footer {
+        background-color: #00366d;
+        color: white;
+        border-radius: 0px;
+    }
 
-  .footer-container {
-    padding: 0px 10px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    user-select: none;
-  }
+    .footer-container {
+        padding: 0px 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        user-select: none;
+    }
 
-  .footer-container p {
-    text-align: center;
-    font-size: 12px;
-    margin-top: 10px;
-  }
+    .footer-container p {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+    }
 
-  .footer-column {
-    margin: 0 60px;
-    margin-bottom: 30px;
-  }
+    .footer-column {
+        margin: 0 60px;
+        margin-bottom: 30px;
+    }
 
-  
-  .footer-column-wrapper {
-    display: flex;
-    flex-wrap: wrap;  
-    justify-content: flex-start;
-  }
+    .footer-column-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 
-  .footer-column li {
-    list-style: none;
-    margin-bottom: 10px;
-    color: rgba(255, 255, 255, 0.671);
-    cursor: pointer;
-    font-size: 14px;
-  }
+    .footer-column li {
+        list-style: none;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.671);
+        cursor: pointer;
+        font-size: 14px;
+    }
 
-  
+    .footer-contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
-  .footer-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    
-  }
+    .footer-contact .phone {
+        margin-bottom: 10px;
+        margin-right: 25px;
+        color: rgba(255, 255, 255, 0.671);
+        cursor: pointer;
+    }
 
-  .footer-contact .phone {
-    margin-bottom: 10px;
-    margin-right: 25px;
-    color: rgba(255, 255, 255, 0.671);
-    cursor: pointer;
-  }
+    .footer-contact .phone p {
+        font-size: 14px;
+    }
 
-  .footer-contact .phone p {
-    font-size: 14px;
-  }
-
-  .footer-column li:first-child {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 15px;
-    font-weight: 600;
-  }
-
-
-
-  }
+    .footer-column li:first-child {
+        color: white;
+        font-size: 16px;
+        margin-bottom: 15px;
+        font-weight: 600;
+    }
+}
